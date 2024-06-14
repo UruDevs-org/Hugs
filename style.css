@@ -250,10 +250,10 @@ border-radius: 50%;
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(Imagenes/status-1.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    transform: translateX(-5px);
 }
 .story img{
     position: absolute;
@@ -261,7 +261,7 @@ border-radius: 50%;
     border-radius: 50px;
     top: 10px;
     left: 10px;
-    border-radius: 5px solid #626262;
+    border: 5px solid #1876f2;
 }
 .story p{
     position: absolute;
@@ -270,4 +270,27 @@ border-radius: 50%;
     text-align: center;
     color: #fff;
     font-size: 14px;
+}
+.story1{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(Imagenes/status-1.png);
+}
+.story2{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(Imagenes/status-2.png);
+}
+.story3{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(Imagenes/status-3.png);
+}
+.story4{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(Imagenes/status-4.png);
+}
+.story5{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(Imagenes/status-5.png);
+}
+.story.story1 img{
+top: unset;
+left: 50%;
+bottom: 40px;
+transform: translateX(-50%);
+border: 0;
+width: 35px;
 }

@@ -7,9 +7,10 @@
     <meta name="author" content="UruDevs">
     <meta name="description" content="Inicio">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script defer src='main.js'></script>
+    <script src='main.js'></script>
     <script src="https://kit.fontawesome.com/6bb738ec2c.js" crossorigin="anonymous"></script>
     <title>HUGGS HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -27,11 +28,58 @@
                 <input type="text" placeholder="Buscar">
             </div>
 
-            <div class="iconousuario online">
+            <div class="iconousuario online" onclick="settingsMenuToggle()">
                 <img src="Imagenes/profile-pic.png">
             </div>
 
         </div>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="Imagenes/profile-pic.png">
+                    <div>
+                        <p>Lucio Martinez</p>
+                        <a href="#">Ir a tu perfil</a>
+                    </div>
+                </div>
+                            <hr>
+                <div class="user-profile">
+                    <img src="Imagenes/feedback.png">
+                    <div>
+                        <p>Danos tu opinion</p>
+                        <a href="#">Ayudanos a mejorar el diseño de la pagina</a>
+                    </div>
+                </div>
+                        <hr>
+
+                <div class="settings-links">
+                    <img src="Imagenes/setting.png" class="settings-icon">
+                    <a href="#">Configuracion & Privacidad <img src="Imagenes/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="Imagenes/help.png" class="settings-icon">
+                    <a href="#">Ayuda y Soporte<img src="Imagenes/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="Imagenes/display.png" class="settings-icon">
+                    <a href="#">Pantalla y Accesibilidad<img src="Imagenes/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="Imagenes/logout.png" class="settings-icon">
+                    <a href="#">Cerrar Sesion<img src="Imagenes/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+            
+
+        </div>
+
 </nav>
 
 

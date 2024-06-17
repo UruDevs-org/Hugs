@@ -6,9 +6,9 @@
 }
 
 :root{
-    --body-color: #efefef;
-    --nav-color: #1876f2;
-    --bg-color: #fff;
+    --body-color: #393053;
+    --nav-color: #201b2b;
+    --bg-color: #2c253f;
 }
 .dark-theme{
 --body-color:#0a0a0a;
@@ -65,7 +65,7 @@ z-index: 100;
 }
 
 .buscador{
-    background: #efefef;
+    background: #393053;
     width: 500px;
     border-radius: 20px;
     display: flex;
@@ -129,7 +129,7 @@ z-index: 100;
     background: var(--bg-color);
     padding: 20px;
     border-radius: 4px;
-    color: #626262;
+    color: #FFF;
 }
 
 .main-content{
@@ -142,7 +142,7 @@ text-decoration: none;
 display: flex;
 align-items: center;
 margin-bottom: 30px;
-color: #626262;
+color: #FFF;
 width: fit-content;
 }
 
@@ -153,11 +153,11 @@ width: fit-content;
 }
 
 .imp-links a:last-child{
-color: #1876f2;
+color: #FFF;
 }
 
 .imp-links{
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
 }
 
 .atajo a img{
@@ -168,7 +168,7 @@ margin: 5px;
 
 .atajo p{
     margin: 25px 0;
-    color: #626262;
+    color: #FFF;
     font-weight: 500;
 }
 .sidebar-title{
@@ -184,7 +184,7 @@ margin: 5px;
 }
 .sidebar-title a{
     text-decoration: none;
-    color: #1876f2;
+    color: #FFF;
     font-size: 12px;
 }
 
@@ -214,7 +214,7 @@ margin: 5px;
 .events a{
     font-size: 12px;
     text-decoration: none;
-    color: #1876f2;
+    color: #FFF;
 }
 
 .left-event span{
@@ -222,7 +222,7 @@ position: absolute;
 bottom: 0;
 left: 0;
 width: 100%;
-background: #1876f2;
+background: #201b2b;
 color: #fff;
 font-size: 10px;
 padding: 4px 0;
@@ -272,7 +272,7 @@ border-radius: 50%;
     border-radius: 50px;
     top: 10px;
     left: 10px;
-    border: 3px solid #1876f2;
+    border: 3px solid #868394;
 }
 .story p{
     position: absolute;
@@ -310,7 +310,7 @@ width: 35px;
     background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
-    color: #626262;
+    color: #FFF;
     transform: translateX(-5px);
 }
 .user-profile{
@@ -325,7 +325,7 @@ width: 35px;
 .user-profile p{
     margin-bottom: -5px;
     font-weight: 500;
-    color: #626262;
+    color: #FFF;
 }
 .user-profile small{
 font-size: 12px;
@@ -338,7 +338,7 @@ font-size: 12px;
     width: 100%;
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
     background: transparent;
     resize: none;
 }
@@ -350,7 +350,7 @@ font-size: 12px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #626262;
+    color: #FFF;
     margin-right: 30px;
     font-size: 13px;
 }
@@ -363,15 +363,15 @@ margin-right: 10px;
     background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
-    color: #626262;
+    color: #FFF;
     margin: 20px 0;
 }
 .user-profile span{
     font-size: 13px;
-    color: #9a9a9a;
+    color: #FFF;
 }
 .post-text{
-    color: #626262;
+    color: #FFF;
     margin: 15px 0;
     font-size: 16px;
 }
@@ -408,7 +408,7 @@ margin-right: 10px;
     margin-right: 5px;
 }
 .post-row a{
-color: #9a9a9a;
+color: #FFF;
 }
 .load-more{
     display: block;
@@ -416,7 +416,7 @@ color: #9a9a9a;
     cursor: pointer;
     padding: 5px 10px;
     border: 1px solid #9a9a9a;
-    color: #626262;
+    color: #FFF;
     background: transparent;
     border-radius: 4px;
 }
@@ -453,7 +453,7 @@ color: #9a9a9a;
 .settings-menu hr{
     border: 0;
     height: 1px;
-    background: #9a9a9a;
+    background: #FFF;
     margin: 15px 0;
 }
 .settings-links{
@@ -472,7 +472,7 @@ color: #9a9a9a;
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #626262;
+    color: #FFF;
 }
 #dark-btn{
     position: absolute;

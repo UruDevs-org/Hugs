@@ -8,7 +8,8 @@
     <meta name="description" content="Login">
     <link rel='stylesheet' type='text/css' media='screen' href='stylelogin.css'>
     <script src='loginJS.js'></script>
-    <script src="https://kit.fontawesome.com/6bb738ec2c.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Hugs Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +27,30 @@
             <button class="boton-login-popup">Login</button>
         </nav>
     </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Recodarme</label>
+                    <a href="#">Olvidaste la Contraseña?</a>
+                </div>
+                
+            </form>
+
+        </div>
+    </div>
 
 </body>
 </html>

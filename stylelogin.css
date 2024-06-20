@@ -20,17 +20,29 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 25px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;    
+    z-index: 99; 
+    transform: translateY(-12px);   
 }
+
+
 .logo{
-    font-size: 2em;
-    color:#fff;
-    user-select: none;
+    height: auto; 
+    margin-right: 15px; 
+    width: 80px; 
+    color: #fff;
+    transform: translateX(-60px);
+  }
+.textologo{
+    width: 80px;
+    height: auto;
+    transform: translateX(-60px);
+    color: #fff;
 }
+
 .navigation a{
     position: relative;
     font-size: 1.1em;
@@ -75,6 +87,10 @@ transition: .5s;
     background: #fff;
     color: #2c253f;
 }
+.navbar-left {
+    display: flex;
+    align-items: center;
+  }
 .wrapper{
     position: relative;
     width: 420px;

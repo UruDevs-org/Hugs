@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background: url(Imagenes/background.jpg) no-repeat;
+background:#fff;
 background-size: cover;
 background-position: center;
 }
@@ -20,12 +22,11 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px 100px;
+    padding: 100px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    z-index: 99; 
-    transform: translateY(-12px);   
+    z-index: 99;    
 }
 
 
@@ -34,13 +35,15 @@ header{
     margin-right: 15px; 
     width: 80px; 
     color: #fff;
-    transform: translateX(-60px);
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, .5));
   }
 .textologo{
-    width: 80px;
+    position: relative;
+    top: 5px;
+    width: 110px;
     height: auto;
-    transform: translateX(-60px);
     color: #fff;
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, .5));
 }
 
 .navigation a{
@@ -95,7 +98,7 @@ transition: .5s;
     position: relative;
     width: 420px;
     height: 450px;
-    background: transparent;
+    background: #393053;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(25px);
@@ -103,7 +106,7 @@ transition: .5s;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden; 
     transition: transform .5 ease, height .2s ease;
 }
 
@@ -162,11 +165,12 @@ cursor: pointer;
     width: 100%;
     height: 50px;
     margin: 30px 0;
+    margin-top: 50px;
 }
 .input-box label{
     position: absolute;
-    top: 50%;
-    left: 10px;
+    top: -20px;
+    left: 20px;
     transform: translateY(-50%);
     font-size: 1em;
     color: #fff;
@@ -221,7 +225,7 @@ cursor: pointer;
 .btn{
     width: 100%;
     height: 45px;
-    background: #2c253f;
+    background: #201B2B;
     border: none;
     outline: none;
     border-radius: 40px;

@@ -8,7 +8,7 @@ registerLink.addEventListener('click', ()=>{
     wrapper.classList.add('active');
 });
 
-registerLink.addEventListener('click', ()=>{
+loginLink.addEventListener('click', ()=>{
     wrapper.classList.remove('active');
 });
 

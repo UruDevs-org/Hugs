@@ -21,13 +21,6 @@
             <img src="Imagenes/Logo_Hugs.svg" alt="Logo" class="logo">
             <img src="Imagenes/Texto_Hugs.svg" alt="TextoLogo" class="textologo">
             </div>
-        <nav class="navigation">
-            <a href="">Inicio</a>
-            <a href="">Sobre nosotros</a>
-            <a href="">Contacto</a>
-            <button class="boton-login-popup">Login</button>
-            
-        </nav>
     </header>
 
     <div class="wrapper">
@@ -36,34 +29,34 @@
             
         </span>
 
-        <div class="form-box login">
+        <div id="loginForm" class="form-box login">
             <h1>Login</h1>
             <form action="#">
                 <div class="input-box">
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" id="email" placeholder="Ingrese su Email" required>
                     <ion-icon class="icon" name="mail"></ion-icon>
+                    <label for="email">Email</label>
+                    
                     
                     
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Contraseña" required>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" placeholder="Contraseña" required>
                     <ion-icon class="icon" name="lock-closed"></ion-icon>
                     
                 </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox"> Recordarme</label>
-                    <a href="#">Olvidaste la Contraseña?</a>
-                </div>
+                
                 <button type="submit" class="btn">Login</button>
                 <div class="login-register">
-                    <p>No tienes un cuenta?<a href="#" class="register"> Registrarse</a></p>
+                    <p>No tienes un cuenta?<a href="#" class="register-link"> Registrarse</a></p>
                 </div>
             </form>
 
         </div>
 
-        <div class="form-box register">
-            <h2>Registro</h2>
+        <div id="registerForm" class="form-box register">
+            <h1>Registro</h1>
             <form action="#">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="person"></ion-icon></span>

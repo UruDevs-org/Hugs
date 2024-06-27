@@ -358,8 +358,8 @@ color: #FFF;
     cursor: pointer;
     padding: 5px 10px;
     border: 1px solid #9a9a9a;
-    color: #FFF;
-    background: transparent;
+    color: #fff;
+    background: #201B2B;
     border-radius: 4px;
 }
 .footer-msg{
@@ -376,12 +376,13 @@ color: #FFF;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
     border-radius: 4px;
     overflow: hidden;
-    top: 108%;
+    top: 100%;
     right: 5%;
+    max-height: 0;
     transition: max-height 0.3s;
 }
 .settings-menu-height{
-    max-height: 450px;
+max-height: 450px;
 }
 
 .user-profile a{

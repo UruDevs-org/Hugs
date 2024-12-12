@@ -7,7 +7,6 @@
     <meta name="author" content="UruDevs">
     <meta name="description" content="Inicio">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
     <script src="https://kit.fontawesome.com/6bb738ec2c.js" crossorigin="anonymous"></script>
     <title>HUGGS HOME</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -15,18 +14,16 @@
 <body>
     <nav>
         <div class="nav-left">
-            <img src="Imagenes/logo.png" class="logo">
+               <img src="Imagenes/Logo_Hugs.svg" alt="Logo" class="logo">
+            <img src="Imagenes/Texto_Hugs.svg" alt="TextoLogo" class="textologo">
             <ul>
-                <li><img src="Imagenes/notification.png"></li>
-                <li><img src="Imagenes/inbox.png"></li>
-                <li><img src="Imagenes/video.png"></li>
             </ul>
         </div>
+        <div class="buscador">
+            <img src="Imagenes/search.png">
+            <input type="text" placeholder="Buscar">
+        </div>
         <div class="nav-right">
-            <div class="buscador">
-                <img src="Imagenes/search.png">
-                <input type="text" placeholder="Buscar">
-            </div>
 
             <div class="iconousuario online" onclick="settingsMenuToggle()">
                 <img src="Imagenes/profile-pic.png">
@@ -90,8 +87,6 @@
                 <a href="#"><img src="Imagenes/news.png" >Ultimas Noticias</a>
                 <a href="#"><img src="Imagenes/friends.png" > Amigos</a>
                 <a href="#"><img src="Imagenes/group.png" >Grupos</a>
-                <a href="#"><img src="Imagenes/marketplace.png" >Marketplace</a>
-                <a href="#"><img src="Imagenes/watch.png" >Ver Contenido</a>
                 <a href="#">Ver mas</a>
             </div>
             <div class="atajo">
@@ -104,221 +99,156 @@
         </div>
         
         <div class="main-content">
-
-            <div class="story-gallery">
-                
-                <div class="story story1">
-                    <img src="Imagenes/upload.png">
-                    <p>Post Story</p>
-                  </div>  
-                
-                  <div class="story story2">
-                    <img src="Imagenes/member-1.png">
-                    <p>Milagros</p>
-                 </div>
-                
-                 <div class="story story3">
-                    <img src="Imagenes/member-2.png">
-                    <p>Rodrigo</p>
-                </div>
-                
-                <div class="story story4">
-                    <img src="Imagenes/member-3.png">
-                    <p>Fernanda</p>
-                    </div>
-                 
-                <div class="story story5">
-                    <img src="Imagenes/member-4.png">
-                    <p>Pablo</p>     
-                </div>
-            </div>
-
-
-            <div class="user-status-post">
-                <div class="user-profile">
-                    <img src="Imagenes/profile-pic.png">
-                    <div>
-                        <p>Lucio Martinez</p>
-                        <small>Publico <i class="fa-solid fa-caret-down"></i></small>
-                    </div>
-                </div>
-                
-              <div class="post-container">
-                <textarea rows="3" placeholder="Compartenos lo que piensas Lucio"></textarea>
-                <div class="add-link">
-                    <a href="#"><img src="Imagenes/live-video.png">Stremear en vivo</a>
-                    <a href="#"><img src="Imagenes/photo.png">Adjuntar video/foto</a>
-                    <a href="#"><img src="Imagenes/feeling.png">Como te sientes</a>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="users-post-container">
-                <div class="post-row">
+            <div class="scroll-content">
+                <div class="user-status-post">
                     <div class="user-profile">
                         <img src="Imagenes/profile-pic.png">
                         <div>
                             <p>Lucio Martinez</p>
-                            <span>14 de Junio 2024, 9:57 AM</span>
+                            <small>Publico <i class="fa-solid fa-caret-down"></i></small>
                         </div>
                     </div>
-                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
-                </div>
-               
-                <p class="post-text">Hoy fue un gran dia, pude disfrutar de una linda tarde de musica con amigos en la playa y de la confortante fogata. Se los recomiendo!
-                    <a href="#">#Musica</a>
-                    <a href="#">#Buenos momentos</a>
-                    <a href="#">#Amistades</a>
-                </p>
-                <img src="Imagenes/feed-image-2.png" class="post-img">
                 
-                <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="Imagenes/like-blue.png">120</div>
-                        <div><img src="Imagenes/comments.png">40</div>
-                        <div><img src="Imagenes/share.png">15</div>
+                  <div class="post-container">
+                    <textarea rows="3" placeholder="Compartenos lo que piensas Lucio"></textarea>
+                    <div class="add-link">
+                        <a href="#"><img src="Imagenes/photo.png">Adjuntar video/foto</a>
+                        <a href="#"><img src="Imagenes/feeling.png">Como te sientes</a>
                     </div>
-                    <div class="post-profile-icon">
-                        <img src="Imagenes/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
-
-                    </div>
-
+                  </div>
                 </div>
-
-            </div>
-            <div class="users-post-container">
-                <div class="post-row">
-                    <div class="user-profile">
-                        <img src="Imagenes/member-4.png">
-                        <div>
-                            <p>Pablo Silva</p>
-                            <span>13 de Junio 2024, 5:01 PM</span>
+                <div class="users-post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Imagenes/profile-pic.png">
+                            <div>
+                                <p>Lucio Martinez</p>
+                                <span>14 de Junio 2024, 9:57 AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                
+                    <p class="post-text">Hoy fue un gran dia, pude disfrutar de una linda tarde de musica con amigos en la playa y de la confortante fogata. Se los recomiendo!
+                        <a href="#">#Musica</a>
+                        <a href="#">#Buenos momentos</a>
+                        <a href="#">#Amistades</a>
+                    </p>
+                    <img src="Imagenes/feed-image-2.png" class="post-img">
+                
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="Imagenes/like-blue.png">120</div>
+                            <div><img src="Imagenes/comments.png">40</div>
+                            <div><img src="Imagenes/share.png">15</div>
                         </div>
                     </div>
-                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
                 </div>
-               
-                <p class="post-text">Descubriendo las calles y bares con los compis de este curioso lugar, escuche por ahi que tienen una cerveza negra de muy buena calidad.
-                    <a href="#">#Turismo</a>
-                    <a href="#">#Catadordecervezas</a>
-                </p>
-                <img src="Imagenes/feed-image-3.png" class="post-img">
+                <div class="users-post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Imagenes/member-4.png">
+                            <div>
+                                <p>Pablo Silva</p>
+                                <span>13 de Junio 2024, 5:01 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
                 
-                <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="Imagenes/like.png">90</div>
-                        <div><img src="Imagenes/comments.png">28</div>
-                        <div><img src="Imagenes/share.png">12</div>
-                    </div>
-                    <div class="post-profile-icon">
-                        <img src="Imagenes/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="users-post-container">
-                <div class="post-row">
-                    <div class="user-profile">
-                        <img src="Imagenes/member-9.png">
-                        <div>
-                            <p>James Acosta</p>
-                            <span>12 de Junio 2024, 8:32 PM</span>
+                    <p class="post-text">Descubriendo las calles y bares con los compis de este curioso lugar, escuche por ahi que tienen una cerveza negra de muy buena calidad.
+                        <a href="#">#Turismo</a>
+                        <a href="#">#Catadordecervezas</a>
+                    </p>
+                    <img src="Imagenes/feed-image-3.png" class="post-img">
+                
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="Imagenes/like.png">90</div>
+                            <div><img src="Imagenes/comments.png">28</div>
+                            <div><img src="Imagenes/share.png">12</div>
                         </div>
                     </div>
-                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
                 </div>
-               
-                <p class="post-text">Este curso de Desarollador Web que estoy haciendo esta genial, los profesores son muy amistosos y siempre dispuesto a sacarte tus dudas!
-                    <a href="#">#Desarollo</a>
-                    <a href="#">#Programacion</a>
-                    <a href="#">#Optimista</a>
-                </p>
-                <img src="Imagenes/feed-image-1.png" class="post-img">
+                <div class="users-post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Imagenes/member-9.png">
+                            <div>
+                                <p>James Acosta</p>
+                                <span>12 de Junio 2024, 8:32 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
                 
-                <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="Imagenes/like.png">60</div>
-                        <div><img src="Imagenes/comments.png">15</div>
-                        <div><img src="Imagenes/share.png">6</div>
-                    </div>
-                    <div class="post-profile-icon">
-                        <img src="Imagenes/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="users-post-container">
-                <div class="post-row">
-                    <div class="user-profile">
-                        <img src="Imagenes/member-3.png">
-                        <div>
-                            <p>Fernanda Rossi</p>
-                            <span>12 de Junio 2024, 8:32 PM</span>
+                    <p class="post-text">Este curso de Desarollador Web que estoy haciendo esta genial, los profesores son muy amistosos y siempre dispuesto a sacarte tus dudas!
+                        <a href="#">#Desarollo</a>
+                        <a href="#">#Programacion</a>
+                        <a href="#">#Optimista</a>
+                    </p>
+                    <img src="Imagenes/feed-image-1.png" class="post-img">
+                
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="Imagenes/like.png">60</div>
+                            <div><img src="Imagenes/comments.png">15</div>
+                            <div><img src="Imagenes/share.png">6</div>
                         </div>
                     </div>
-                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
                 </div>
-               
-                <p class="post-text"> Reunion y charla grupal de Marketing, muy buena info!
-                    <a href="#">#Marketing</a>
-                </p>
-                <img src="Imagenes/feed-image-5.png" class="post-img">
+                <div class="users-post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Imagenes/member-3.png">
+                            <div>
+                                <p>Fernanda Rossi</p>
+                                <span>12 de Junio 2024, 8:32 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
                 
-                <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="Imagenes/like-blue.png">101</div>
-                        <div><img src="Imagenes/comments.png">38</div>
-                        <div><img src="Imagenes/share.png">14</div>
-                    </div>
-                    <div class="post-profile-icon">
-                        <img src="Imagenes/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="users-post-container">
-                <div class="post-row">
-                    <div class="user-profile">
-                        <img src="Imagenes/member-6.png">
-                        <div>
-                            <p>Agostina Lerinio</p>
-                            <span>12 de Junio 2024, 8:32 PM</span>
+                    <p class="post-text"> Reunion y charla grupal de Marketing, muy buena info!
+                        <a href="#">#Marketing</a>
+                    </p>
+                    <img src="Imagenes/feed-image-5.png" class="post-img">
+                
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="Imagenes/like-blue.png">101</div>
+                            <div><img src="Imagenes/comments.png">38</div>
+                            <div><img src="Imagenes/share.png">14</div>
                         </div>
                     </div>
-                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
                 </div>
-               
-                <p class="post-text">Nada mejor que empezar la mañana con un buen te y organizando el evento de Arte de este Sabado, los espero!
-                    <a href="#">#Arte</a>
-                    <a href="#">#Evento</a>
-                    <a href="#">#Entusiasmada</a>
-                </p>
-                <img src="Imagenes/feed-image-4.png" class="post-img">
+                <div class="users-post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Imagenes/member-6.png">
+                            <div>
+                                <p>Agostina Lerinio</p>
+                                <span>12 de Junio 2024, 8:32 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
                 
-                <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="Imagenes/like-blue.png">22</div>
-                        <div><img src="Imagenes/comments.png">5</div>
-                        <div><img src="Imagenes/share.png">2</div>
+                    <p class="post-text">Nada mejor que empezar la mañana con un buen te y organizando el evento de Arte de este Sabado, los espero!
+                        <a href="#">#Arte</a>
+                        <a href="#">#Evento</a>
+                        <a href="#">#Entusiasmada</a>
+                    </p>
+                    <img src="Imagenes/feed-image-4.png" class="post-img">
+                
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="Imagenes/like-blue.png">22</div>
+                            <div><img src="Imagenes/comments.png">5</div>
+                            <div><img src="Imagenes/share.png">2</div>
+                        </div>
                     </div>
-                    <div class="post-profile-icon">
-                        <img src="Imagenes/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
-
-                    </div>
-
                 </div>
-
             </div>
 
             <button type="button" class="load-more">Cargar mas</button>
@@ -327,66 +257,63 @@
 
         
         <div class="right-sidebar">
-            <div class="sidebar-title">
-                <h4>Eventos</h4>
-                <a href="#">Ver todos</a>
-            </div>
-
-            <div class="events">
-                <div class="left-event">
-                    <h3>28</h3>
-                    <span>Setiembre</span>
+            <div class="trending">
+                <div class="sidebar-title">
+                    <h4>Eventos</h4>
+                    <a href="#">Ver todos</a>
                 </div>
-                <div class="right-event">
-                    <h4>Feria del libro</h4>
-                    <p><i class="fa-solid fa-location-dot"></i>  Intendencia de Montevideo</p>
-                    <a href="#">Mas informacion</a>
-                </div>
-            </div>
-
-            <div class="events">
-                <div class="left-event">
-                    <h3>7</h3>
-                    <span>Noviembre</span>
-                </div>
-                <div class="right-event">
-                    <h4>Musica contemporanea</h4>
-                    <p><i class="fa-solid fa-location-dot"></i>   Teatro Solis</p>
-                    <a href="#">Mas informacion</a>
-                </div>
-            </div>
-                    <div class="sidebar-title">
-                        <h4>Galeria</h4>
-                        <a href="#">Cerrar</a>
+                <div class="events">
+                    <div class="left-event">
+                        <h3>28</h3>
+                        <span>Setiembre</span>
                     </div>
-                    <img src="Imagenes/advertisement.png" class="ads">
-                    <div class="sidebar-title">
-                        <h4>Conversaciones</h4>
-                        <a href="#">Ocultar Chat</a>
+                    <div class="right-event">
+                        <h4>Feria del libro</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>  Intendencia de Montevideo</p>
+                        <a href="#">Mas informacion</a>
                     </div>
-
-                    <div class="online-list">
-                        <div class="online">
-                            <img src="Imagenes/member-1.png">
+                </div>
+                <div class="events">
+                    <div class="left-event">
+                        <h3>7</h3>
+                        <span>Noviembre</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Musica contemporanea</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>   Teatro Solis</p>
+                        <a href="#">Mas informacion</a>
+                    </div>
+                </div>
+                        <div class="sidebar-title">
+                            <h4>Galeria</h4>
+                            <a href="#">Cerrar</a>
                         </div>
-                        <p>Milagros Cortez</p>
-                    </div>
-                    
-                    <div class="online-list">
-                        <div class="online">
-                            <img src="Imagenes/member-2.png">
+                        <img src="Imagenes/advertisement.png" class="ads">
+                        <div class="sidebar-title">
+                            <h4>Conversaciones</h4>
+                            <a href="#">Ocultar Chat</a>
                         </div>
-                        <p>Rodrigo Rodriguez</p>
-                    </div>
-
-                    <div class="online-list">
-                        <div class="online">
-                            <img src="Imagenes/member-3.png">
+                        <div class="online-list">
+                            <div class="online">
+                                <img src="Imagenes/member-1.png">
+                            </div>
+                            <p>Milagros Cortez</p>
                         </div>
-                        <p>Fernanda Rossi</p>
-                    </div>
-
-            </div>
+            
+                        <div class="online-list">
+                            <div class="online">
+                                <img src="Imagenes/member-2.png">
+                            </div>
+                            <p>Rodrigo Rodriguez</p>
+                        </div>
+                        <div class="online-list">
+                            <div class="online">
+                                <img src="Imagenes/member-3.png">
+                            </div>
+                            <p>Fernanda Rossi</p>
+                        </div>
+                </div>
+        </div>
 
 </div>
     <footer>
@@ -394,6 +321,6 @@
     <p>Copyright 2024 - Hugs URUDEVS S.A</p>
 </div>
 </footer>
-
+<script src='main.js'></script>
 </body>
 </html>
